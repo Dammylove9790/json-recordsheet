@@ -1,0 +1,81 @@
+{
+  "student": {
+    "section": [
+      "Nursery", 
+      "Primary", 
+      "Secondary"
+    ],
+    "studentClass": [
+      {
+        "id": 1,
+        "name": "JSS 1",
+        "staffId": "typicode"
+      },
+      {
+        "id": 1,
+        "name": "JSS 2",
+        "staffId": "typicode"
+      },
+      {
+        "id": 1,
+        "name": "JSS 3",
+        "staffId": "typicode"
+      }
+    ],
+    "subject": [
+      {
+        "id": 1,
+        "name": "",
+        "score": "",
+        "staffId": "typicode"
+      }
+    ],
+    "comments": {
+        "fair": "fair",
+        "good": "good",
+        "average": "average",
+        "veryGood": "verygood",
+        "excellent": "excellent"
+    },  
+    "nursery": [
+      {
+        "id": 1,
+        "name": "kamil",
+        "class": "nursery",
+        "subjects": []
+      },
+      {
+        "id": 1,
+        "name": "akinbola",
+        "class": "kg 1",
+        "subjects": []
+      }
+    ],
+    "primary":[
+      {
+        "id": 1,
+        "name": "",
+        "class": "",
+        "subjects": []
+      }
+    ],
+    "secondary":[
+      {
+        "id": 1,
+        "name": "",
+        "class": "typicode",
+        "subjects": []
+      }
+    ]
+  },
+  "staff": [
+    {
+      "id": 1,
+      "name": "",
+      "email": "",
+      "password": "",
+      "classTaught": [],
+      "subjectTaught": []
+    }
+  ]
+}

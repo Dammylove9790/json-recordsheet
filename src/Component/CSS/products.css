@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.product-container{
+    display: flex;
+    flex-wrap:wrap;
+   
+}
+.img-container{
+    width:23%;
+    height:250px;
+    margin: 2% 1%;
+    position: relative;
+}
+
+.img-container img{
+    width: 100%;
+    height:150px
+}
+
+.add-to-favorite-container {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+    color: rgb(255, 123, 0);
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.add-to-favorite-container-click {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.add-to-favorite-container:hover {
+    opacity: 1;
+}
+
+.single-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    /* flex-direction: column; */
+    margin: 2% 1%;
+}
+
+.single-product img{
+    width: 30%;
+    margin: 0 20px;
+}
+
+.single-product .content-container{
+    width: 40%;
+}
+
+.checkout-container a{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 5%;
+    background-color: gray;
+    outline: none;
+    color: black;
+}
+
+.checkout-container a:hover{
+    background-color: black;
+    /* outline: 2px solid black; */
+    color: white;
+}
+
+.product-button {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 6%;
+}
+
+.product-button a {
+    padding: 3% 6%;
+    border-radius:  7%;
+}
+
+.product-button a:first-child {
+    background-color: green;
+    color:white;
+    text-decoration:none
+}
+
+.product-button a:last-child {
+    border-radius:  7%;
+    background-color: rgb(255, 123, 0);
+    color:white;
+    text-decoration:none
+}
+
+.product-button a:hover{
+    background-color: black;
+    color:white;
+}
+.productadd {
+    background-color: green;
+    padding: 4px 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.productminus {
+    background-color: red;
+    padding: 4px 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.productquantity {
+    background-color: grey;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+@media screen and (max-width: 480px){
+    
+}
+
+@media screen and (max-width: px) {
+    
+}
